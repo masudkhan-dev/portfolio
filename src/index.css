@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg {
+  background: #0a66c2;
+}
+
+.blue {
+  color: #0a66c2;
+}
+
+.white {
+  color: #ffffff;
+}
+
+/* scroll bar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #0a66c2;
+  border-radius: 2px;
+}
